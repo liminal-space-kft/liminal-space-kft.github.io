@@ -1,7 +1,10 @@
 {
   "files.exclude": {
     "package-lock.json": true,
-    ".gitignore": true
+    ".gitignore": true,
+    ".editorconfig": true,
+    ".prettierignore": true,
+    ".eslintignore": true
   },
   "prettier.documentSelectors": ["**/*.{astro,js,jsx,ts,tsx,css,scss,less,html,json}"]
 }
