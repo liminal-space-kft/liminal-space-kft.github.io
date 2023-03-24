@@ -1,0 +1,16 @@
+---
+import Layout from "./BaseLayout.astro";
+import Header from "@components/Header.astro";
+
+---
+
+<Layout title={Astro.props.title}>
+  <slot name="header">
+    <Header />
+  </slot>
+  <main>
+    <slot />
+  </main>
+  <slot name="footer">
+  </slot>
+</Layout>
